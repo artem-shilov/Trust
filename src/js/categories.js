@@ -1,4 +1,4 @@
-const item = document.querySelector('.clickable');
+const item = document.querySelector('.dropdown');
 const categories = document.querySelector('.categories');
 
 item.addEventListener('click',()=>{

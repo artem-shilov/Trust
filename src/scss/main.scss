@@ -19,6 +19,7 @@ body {
   padding-bottom: 17px;
 
   &__inner {
+    position: relative;
     display: flex;
     align-items: center;
 
@@ -59,30 +60,23 @@ body {
 .menu-burger {
   display: none;
 }
-.categories {
+.categories-wrapper {
+  // display: none;
   position: absolute;
-  display: none;
+  width: 100%;
   background: $white;
+  z-index: 20;
+  top: 60px;
+  left: 0;
+}
+.categories {
+  display: none;
+  margin: 0 auto;
   min-width: 1280px;
-  display: flex;
   align-items: flex-start;
   gap: 80px;
-  padding-left: 300px;
-  // width: 100%;
-  z-index: 20;
-  top: 73.2px;
-  left: 0;
-  right: 0;
-  // margin: 0 auto;
-    // display: flex;
-  // align-items: flex-start;
-  // padding-left: 150px;
-  // justify-content: flex-end;
- 
-  // padding-left: 8%;
-  // padding-top: 13px;
 
-
+  padding: 30px 30px;
 
   &__main {
     & p {

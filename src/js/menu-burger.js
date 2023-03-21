@@ -17,6 +17,6 @@ btn.addEventListener('click', () => {
 //     html.classList.remove('off-scroll');
 //     menu.classList.remove('active');
 //     btn.classList.remove('active');
-//     menuList.classList.remove('active');
+//     // menuList.classList.remove('active');
 //   });
 // });
